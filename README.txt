@@ -8,6 +8,7 @@ Some changes need to be made to the web server configuration (in this case, Apac
 
 	<Directory /var/www/>
           AddHandler mod_python .py
+          AddHandler mod_python .py
           PythonHandler mod_python.publisher
           PythonDebug On
         </Directory>
